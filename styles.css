@@ -1,0 +1,147 @@
+body {
+  height: 95vh;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+header {
+  height: 15vh;
+  background-color: blueviolet;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.firstBtn,
+.secbtn,
+.cardbtn {
+  margin-top: 40px;
+  color: aliceblue;
+  background-color: blueviolet;
+  outline: none;
+  border: none;
+  width: 150px;
+  height: 5vh;
+  border-radius: 30px;
+  align-self: center;
+}
+.mainfield {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+.main-p {
+  margin: 0;
+}
+.radioDiv {
+  display: flex;
+}
+.delbtn {
+  margin: 65px 280px;
+  color: aliceblue;
+  background-color: blueviolet;
+  border: none;
+}
+.absolute {
+  position: absolute;
+  margin: 40px auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.firstBtn {
+  margin-bottom: 40px;
+}
+
+.dnone,
+.mainForm {
+  display: none;
+}
+.mainForm {
+  border: solid 2px grey;
+  width: 250px;
+  padding: 10px;
+}
+.display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.mainForm input {
+  height: 25px;
+  padding: 5px;
+  letter-spacing: 0.3px;
+  margin-bottom: 10px;
+}
+
+.mainForm label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.secbtn {
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.libraryShow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px;
+  min-height: 800px;
+  background-color: gray;
+}
+
+@media screen and (min-width: 900px) {
+  .libraryShow {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.card {
+  width: 70%;
+  max-width: 300px;
+  height: 300px;
+  padding: 20px;
+  color: blueviolet;
+  border-radius: 3px;
+  margin: 10px;
+  background-color: aliceblue;
+  position: relative;
+}
+
+.card p {
+  font-size: 24px;
+}
+
+.cardbtn {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 280px auto;
+}
