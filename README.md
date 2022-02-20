@@ -1,2 +1,2 @@
-# mini library for books
+# Book library
  
